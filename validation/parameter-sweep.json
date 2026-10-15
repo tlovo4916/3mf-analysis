@@ -1,0 +1,1118 @@
+{
+  "seed": 510723,
+  "scope": "synthetic_parameter_sweep_not_population_recall_or_false_positive_rate",
+  "new_parameters_not_used_in_implementation": true,
+  "positive_cases": [
+    {
+      "case": 0,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 5.637959654140977,
+        "height": 10.053685081184181,
+        "blend": 1.2871936740313945,
+        "sections": 16,
+        "coverage": 80.0,
+        "steps": 7
+      },
+      "rigid_transform": [
+        [
+          0.905661438940964,
+          -0.08016350625871578,
+          0.41635462082183194,
+          93380.12378404965
+        ],
+        [
+          0.21048975070995551,
+          0.9374211118112104,
+          -0.27737289697570516,
+          -83329.9150998717
+        ],
+        [
+          -0.36806442759582647,
+          0.33884431734196635,
+          0.865859749465012,
+          -652656.8813484407
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 4,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 1,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 7.446128416054231,
+        "height": 25.292769556628485,
+        "blend": 2.331942240685938,
+        "sections": 24,
+        "coverage": 135.0,
+        "steps": 6
+      },
+      "rigid_transform": [
+        [
+          0.1864632082719529,
+          0.42915245643570743,
+          0.8837757866654462,
+          -556439.882186004
+        ],
+        [
+          -0.893983363248452,
+          0.44719071523928733,
+          -0.02853437293442207,
+          -553637.2131154726
+        ],
+        [
+          -0.4074619223877446,
+          -0.7847602393973414,
+          0.4670397718236753,
+          -198738.55834937724
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 2,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 0.7518645292717294,
+        "height": 2.909418922100208,
+        "blend": 0.11912547704142716,
+        "sections": 48,
+        "coverage": 80.0,
+        "steps": 7
+      },
+      "rigid_transform": [
+        [
+          0.13921136272535128,
+          0.5884045183903648,
+          -0.7964925104644447,
+          -258126.87840365944
+        ],
+        [
+          0.9518735466457742,
+          -0.3012926454200917,
+          -0.05620936765129214,
+          782972.240555984
+        ],
+        [
+          -0.2730511814370082,
+          -0.7503351681439206,
+          -0.6020300555306922,
+          56188.70189456409
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 3,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 5.326135692451584,
+        "height": 10.713846618429777,
+        "blend": 1.394825466324728,
+        "sections": 24,
+        "coverage": 270.0,
+        "steps": 5
+      },
+      "rigid_transform": [
+        [
+          0.11086383991267137,
+          -0.44730945323419924,
+          -0.8874815277216419,
+          749124.7822117582
+        ],
+        [
+          -0.4891276387624893,
+          0.7527901197180604,
+          -0.4405237662754418,
+          39923.60663241462
+        ],
+        [
+          0.8651377705304799,
+          0.48292990040190104,
+          -0.13533421333632026,
+          955740.6279349213
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 4,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 4,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 0.9129538098393198,
+        "height": 2.059959266922056,
+        "blend": 0.1742207339646025,
+        "sections": 32,
+        "coverage": 360.0,
+        "steps": 8
+      },
+      "rigid_transform": [
+        [
+          0.3530090291341278,
+          -0.930715671872341,
+          0.09567112145782222,
+          -742992.4930550784
+        ],
+        [
+          0.932170560820496,
+          0.3410917126401599,
+          -0.12130329388687174,
+          -325122.1947122993
+        ],
+        [
+          0.08026625000199453,
+          0.1320029609494403,
+          0.9879942041384644,
+          -731563.7665122843
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 5,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 5.9684601134466435,
+        "height": 15.808761374637264,
+        "blend": 2.054047827772107,
+        "sections": 24,
+        "coverage": 270.0,
+        "steps": 8
+      },
+      "rigid_transform": [
+        [
+          0.40450233673340963,
+          -0.14152417254806826,
+          -0.9035202090500221,
+          490001.7066041182
+        ],
+        [
+          -0.7251040786705867,
+          -0.6516873329704186,
+          -0.22254818611074406,
+          -800898.516613753
+        ],
+        [
+          -0.5573167274292874,
+          0.7451674500610499,
+          -0.3662288037511824,
+          635705.0876678352
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 2,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 6,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 7.640997561863127,
+        "height": 12.997608929333346,
+        "blend": 1.2063518404469709,
+        "sections": 32,
+        "coverage": 270.0,
+        "steps": 5
+      },
+      "rigid_transform": [
+        [
+          0.035149879245783555,
+          0.6818061109059719,
+          -0.7306879724754478,
+          871947.024905462
+        ],
+        [
+          0.3823187553617316,
+          0.6663501609420097,
+          0.6401639105035637,
+          -756891.6481808114
+        ],
+        [
+          0.9233617142201984,
+          -0.3018574003463091,
+          -0.23724513602707376,
+          379112.1087173901
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 7,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 6.065130939646087,
+        "height": 10.85007891744605,
+        "blend": 1.3549171736103407,
+        "sections": 24,
+        "coverage": 360.0,
+        "steps": 6
+      },
+      "rigid_transform": [
+        [
+          -0.9729576520385816,
+          0.22545980216442796,
+          0.05021239834490378,
+          -869467.354864166
+        ],
+        [
+          -0.05982358706698136,
+          -0.4559327047929198,
+          0.8880014116715419,
+          15690.008601355366
+        ],
+        [
+          0.22310209718873014,
+          0.8609838827226611,
+          0.4570910280478069,
+          610418.1971853245
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": false,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 8,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 4.665608609166618,
+        "height": 18.62094556838313,
+        "blend": 0.5756199967156237,
+        "sections": 48,
+        "coverage": 270.0,
+        "steps": 9
+      },
+      "rigid_transform": [
+        [
+          0.46580260527719225,
+          -0.34404673991433427,
+          0.8152666886800286,
+          159650.18258239166
+        ],
+        [
+          0.8801573545293073,
+          0.08499074553638938,
+          -0.46701135365335594,
+          110177.95582803758
+        ],
+        [
+          0.0913836100455181,
+          0.9350980771702437,
+          0.3424041791327341,
+          -541555.6991611901
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 3,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 9,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 0.7464245430846026,
+        "height": 1.4981324723627676,
+        "blend": 0.10834194972074221,
+        "sections": 48,
+        "coverage": 135.0,
+        "steps": 5
+      },
+      "rigid_transform": [
+        [
+          0.2868481928169589,
+          -0.944492681838585,
+          -0.1601614442710924,
+          -956357.327601415
+        ],
+        [
+          0.6817534401737964,
+          0.08381215351373786,
+          0.7267652782945699,
+          878613.3286122743
+        ],
+        [
+          -0.6730010112093732,
+          -0.31766192229593254,
+          0.6679524998339436,
+          893059.8006211594
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 10,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 5.087571962786559,
+        "height": 3.7910683509559218,
+        "blend": 0.6495054227231509,
+        "sections": 24,
+        "coverage": 80.0,
+        "steps": 9
+      },
+      "rigid_transform": [
+        [
+          0.9912484781875367,
+          0.016544446227377038,
+          0.13096845341501884,
+          -353212.6536022051
+        ],
+        [
+          -0.03798628580069899,
+          0.9859010996158232,
+          0.16296031378031364,
+          99942.9608128937
+        ],
+        [
+          -0.12642585408831591,
+          -0.16650916814199782,
+          0.9779014267004112,
+          441398.9469752414
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 4,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 11,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 2.9328951429177432,
+        "height": 7.122332857469305,
+        "blend": 0.7709578748331254,
+        "sections": 48,
+        "coverage": 135.0,
+        "steps": 6
+      },
+      "rigid_transform": [
+        [
+          0.6689398831599521,
+          -0.7319749799693563,
+          0.12935246969737466,
+          124744.10401109722
+        ],
+        [
+          0.7278034330750308,
+          0.6803525363922999,
+          0.0861544486881759,
+          -640117.1496638164
+        ],
+        [
+          -0.15106818170001543,
+          0.03651102468330468,
+          0.9878488495485664,
+          987958.2943868365
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 12,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 7.107611417028492,
+        "height": 9.809599696896273,
+        "blend": 2.7244436730723254,
+        "sections": 24,
+        "coverage": 80.0,
+        "steps": 8
+      },
+      "rigid_transform": [
+        [
+          -0.26458017246920706,
+          -0.9334423865699955,
+          -0.2422450067404402,
+          -376670.6346680691
+        ],
+        [
+          0.054774397948454956,
+          0.2362453101610853,
+          -0.9701484003781468,
+          892350.8282105413
+        ],
+        [
+          0.9628068849284102,
+          -0.26995085549300246,
+          -0.01137708016352068,
+          -973981.0081237177
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 13,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 7.532300423215442,
+        "height": 25.69821960055165,
+        "blend": 1.0694454267210407,
+        "sections": 16,
+        "coverage": 135.0,
+        "steps": 8
+      },
+      "rigid_transform": [
+        [
+          0.4134477309870355,
+          0.1276681315425686,
+          -0.9015330398438547,
+          -176587.2226477923
+        ],
+        [
+          -0.060548757858488095,
+          0.9917846860442859,
+          0.1126808965611801,
+          -673653.3859867371
+        ],
+        [
+          0.9085124224045954,
+          0.0079990447221275,
+          0.417781274855716,
+          -441428.44453061535
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 14,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 5.438835304155075,
+        "height": 13.21231159156142,
+        "blend": 1.9735291600566607,
+        "sections": 16,
+        "coverage": 360.0,
+        "steps": 10
+      },
+      "rigid_transform": [
+        [
+          -0.7676466960027858,
+          0.4441968317160617,
+          -0.4619607394675649,
+          -493827.3893926239
+        ],
+        [
+          -0.24036721012885484,
+          0.4686519418035393,
+          0.850052328823728,
+          -426419.7546779271
+        ],
+        [
+          0.5940893488448329,
+          0.7635800757858897,
+          -0.25298876151311034,
+          157491.74225482554
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": false,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 15,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 5.665227357655041,
+        "height": 19.244226138057044,
+        "blend": 0.7002870591073892,
+        "sections": 24,
+        "coverage": 80.0,
+        "steps": 4
+      },
+      "rigid_transform": [
+        [
+          0.9988699623243626,
+          0.0016128196688004878,
+          0.04749944398455998,
+          981970.5667254999
+        ],
+        [
+          -0.013607995768465355,
+          0.9672868248923085,
+          0.25331999692271,
+          994671.9366181085
+        ],
+        [
+          -0.04553702688243766,
+          -0.25368010801494134,
+          0.9662157015802609,
+          -834624.5231508389
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 16,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 7.349336257776634,
+        "height": 17.925946795502306,
+        "blend": 1.3850907451989865,
+        "sections": 32,
+        "coverage": 270.0,
+        "steps": 5
+      },
+      "rigid_transform": [
+        [
+          -0.55902230124742,
+          -0.6475216885378264,
+          -0.5178896886221629,
+          -725831.9095802947
+        ],
+        [
+          0.604855330230511,
+          0.10875629812533494,
+          -0.7888739424710469,
+          729171.4055928111
+        ],
+        [
+          0.5671367526441733,
+          -0.7542464653488243,
+          0.33085974869878965,
+          250656.2018185174
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 17,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 1.5909256058394896,
+        "height": 6.085052372447126,
+        "blend": 0.6027903445502114,
+        "sections": 16,
+        "coverage": 135.0,
+        "steps": 8
+      },
+      "rigid_transform": [
+        [
+          0.4016715459515453,
+          -0.8961284206694461,
+          -0.18871624954248062,
+          -287244.8260632581
+        ],
+        [
+          -0.8913406260441082,
+          -0.3352666724643515,
+          -0.3051362756179253,
+          -159738.24888734485
+        ],
+        [
+          0.2101710197343885,
+          0.2907750195652397,
+          -0.9334227501302085,
+          441856.70157079794
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 2,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 18,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 2.0514705838227325,
+        "height": 7.513195474031384,
+        "blend": 0.7420010155356733,
+        "sections": 32,
+        "coverage": 360.0,
+        "steps": 9
+      },
+      "rigid_transform": [
+        [
+          0.8191836269853351,
+          -0.4728459915065102,
+          -0.3245841240655134,
+          -122338.80939068436
+        ],
+        [
+          0.287193059659104,
+          0.8280642805730369,
+          -0.4814869611139028,
+          -359685.98121854314
+        ],
+        [
+          0.4964456987050987,
+          0.30120792744428887,
+          0.8141347877851199,
+          853713.3155370282
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 19,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 3.8050442910197426,
+        "height": 8.884052973426146,
+        "blend": 0.3491971966494639,
+        "sections": 16,
+        "coverage": 360.0,
+        "steps": 4
+      },
+      "rigid_transform": [
+        [
+          0.97986318935485,
+          0.09306600781181248,
+          -0.1766546018005565,
+          -69778.90129795461
+        ],
+        [
+          0.04475500831104872,
+          0.7598514058964172,
+          0.6485544157496087,
+          -336913.2731311986
+        ],
+        [
+          0.1945896178587632,
+          -0.6434007764583517,
+          0.7403852520643361,
+          -732720.8715889866
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": false,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 20,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 5.808702560272829,
+        "height": 11.887593957067299,
+        "blend": 2.230612493446495,
+        "sections": 16,
+        "coverage": 360.0,
+        "steps": 5
+      },
+      "rigid_transform": [
+        [
+          0.9299110661182082,
+          -0.2252117939234164,
+          -0.2907663271231633,
+          738412.2680446282
+        ],
+        [
+          0.3660514349837556,
+          0.4900869617358854,
+          0.7910885645000959,
+          -917138.4272404979
+        ],
+        [
+          -0.03566168892847324,
+          -0.8420774416965969,
+          0.5381763894193831,
+          44936.27708003856
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": false,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 21,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 6.267741851544716,
+        "height": 12.354547303879487,
+        "blend": 0.7404535023408473,
+        "sections": 48,
+        "coverage": 80.0,
+        "steps": 8
+      },
+      "rigid_transform": [
+        [
+          -0.10094156834417778,
+          0.4505508653249251,
+          -0.8870257705022886,
+          -349374.8693407703
+        ],
+        [
+          -0.2225110002334783,
+          -0.8792186395001851,
+          -0.4212640961802233,
+          2831.806276481133
+        ],
+        [
+          -0.9696904942069478,
+          0.1548499328718117,
+          0.1890022320880912,
+          813365.2672545293
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 22,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 4.4168559965828855,
+        "height": 12.506666807707106,
+        "blend": 0.5354421208044186,
+        "sections": 16,
+        "coverage": 270.0,
+        "steps": 7
+      },
+      "rigid_transform": [
+        [
+          0.7499540287109093,
+          0.34369953954278387,
+          -0.5651898630888164,
+          523032.8186739315
+        ],
+        [
+          -0.2567362379327952,
+          0.9386768560076746,
+          0.2301570423160293,
+          213861.14745384618
+        ],
+        [
+          0.6096355131981666,
+          -0.027502481953919133,
+          0.7922046165820941,
+          3944.5552645187126
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 3,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    },
+    {
+      "case": 23,
+      "kind": "blended_cylindrical_support",
+      "parameters": {
+        "radius": 2.8962402020712132,
+        "height": 1.8005638035197775,
+        "blend": 0.23917688307795834,
+        "sections": 24,
+        "coverage": 80.0,
+        "steps": 5
+      },
+      "rigid_transform": [
+        [
+          0.9934164671919025,
+          0.06853822361678748,
+          0.09179452388576848,
+          388981.6474264595
+        ],
+        [
+          -0.061468524114334185,
+          0.9950762503163774,
+          -0.07774880448922536,
+          -876808.2596825209
+        ],
+        [
+          -0.09667131557584804,
+          0.07159446877904402,
+          0.992738076627003,
+          798392.278303734
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "expected_support_matched": true,
+      "candidate_count": 1,
+      "surface_within_005mm": true,
+      "source_arrays_unchanged": true
+    }
+  ],
+  "negative_cases": [
+    {
+      "case": 0,
+      "kind": "smooth_torus_no_cylindrical_run",
+      "major_radius": 1.2658315438099037,
+      "minor_radius": 0.31133689125888264,
+      "candidate_count": 0
+    },
+    {
+      "case": 1,
+      "kind": "smooth_torus_no_cylindrical_run",
+      "major_radius": 0.6875731333903857,
+      "minor_radius": 0.2708527641895175,
+      "candidate_count": 0
+    },
+    {
+      "case": 2,
+      "kind": "smooth_torus_no_cylindrical_run",
+      "major_radius": 1.0194090191642666,
+      "minor_radius": 0.2661722282872988,
+      "candidate_count": 0
+    },
+    {
+      "case": 3,
+      "kind": "smooth_torus_no_cylindrical_run",
+      "major_radius": 6.348801887373213,
+      "minor_radius": 1.0797617653337062,
+      "candidate_count": 0
+    },
+    {
+      "case": 4,
+      "kind": "smooth_torus_no_cylindrical_run",
+      "major_radius": 2.7896454593728466,
+      "minor_radius": 0.8706288770813885,
+      "candidate_count": 0
+    },
+    {
+      "case": 5,
+      "kind": "smooth_torus_no_cylindrical_run",
+      "major_radius": 1.5172140208644078,
+      "minor_radius": 0.3593594531055587,
+      "candidate_count": 0
+    },
+    {
+      "case": 6,
+      "kind": "smooth_torus_no_cylindrical_run",
+      "major_radius": 4.295872020161458,
+      "minor_radius": 0.4877459277966968,
+      "candidate_count": 0
+    },
+    {
+      "case": 7,
+      "kind": "smooth_torus_no_cylindrical_run",
+      "major_radius": 2.156606087131093,
+      "minor_radius": 0.8208758307054401,
+      "candidate_count": 0
+    },
+    {
+      "case": 8,
+      "kind": "smooth_torus_no_cylindrical_run",
+      "major_radius": 6.630576123640218,
+      "minor_radius": 1.3764483843483806,
+      "candidate_count": 0
+    },
+    {
+      "case": 9,
+      "kind": "smooth_torus_no_cylindrical_run",
+      "major_radius": 7.597838564199051,
+      "minor_radius": 1.3687050032406785,
+      "candidate_count": 0
+    },
+    {
+      "case": 10,
+      "kind": "smooth_torus_no_cylindrical_run",
+      "major_radius": 5.915261833617651,
+      "minor_radius": 0.5360737250433218,
+      "candidate_count": 0
+    },
+    {
+      "case": 11,
+      "kind": "smooth_torus_no_cylindrical_run",
+      "major_radius": 1.757201448227796,
+      "minor_radius": 0.662634338467457,
+      "candidate_count": 0
+    }
+  ],
+  "expected_support_matches": 24,
+  "negative_cases_with_any_cylinder": 0,
+  "elapsed_seconds": 6.494807852897793,
+  "production_source_hashes": {
+    "analytic_surfaces.py": "2ffcdea3566661d9bffcb45fc1f910a241b679237359033b7d71f9dbde560ece",
+    "assistant.py": "3609c16b5ae6cfa6677cfb0afa58a71fed8761276322992833a5ec64cb04f577",
+    "build_solidworks.py": "814664e69fbfbbb4f6f4f4b2d83585aab838a58ba85810888d5f7b1d759f77d2",
+    "feature_relations.py": "995b719b7b47ad11a6b8cc9945d76dfd25461c5c5ad6d9a50448bc06f4838b9b",
+    "geometry_analysis.py": "11f0d2d4ecef6685e731392a32ae40a69e3d18486892f5106c84da8794728f81",
+    "mesh_diagnostics.py": "59a6740a6ac332055a06812b1ecf5e263da0fade0e475f76a9afd2d550cfede3",
+    "mesh_evidence.py": "6905e1f5248cb1b16e7e370f872c3a336a2edfc8f2238d1ea60d3d802f493f36",
+    "reverse_assistant.py": "23741c6cd7c2ecac202cf58dd33987598eb75fea7622806ecc78b9ade4d395bf",
+    "section_analysis.py": "fb7b32424fecda35c677db268396dc76bd0528b169d14a21411a6215db9abdb0",
+    "threemf_io.py": "ea9009969ab14907e0f43904ec6d4b02f26996e08bec4eef0fea00a95d29d01b",
+    "slicer_metadata.py": "3390aed189d974890da8cf35e99980375cef26d299c1f4e756c32ed94fbfe658",
+    "cylinder_segmentation.py": "3314726c9b9e195e7158ca3f3e57aac647f0a9fa56c8283601ce96f7bd283d7c"
+  }
+}

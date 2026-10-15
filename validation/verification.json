@@ -1,0 +1,377 @@
+{
+  "verification_passed": true,
+  "analyzer_version": "0.5.0",
+  "v041_baseline_hashes_intact": true,
+  "production_source_hashes": {
+    "analytic_surfaces.py": "2ffcdea3566661d9bffcb45fc1f910a241b679237359033b7d71f9dbde560ece",
+    "assistant.py": "3609c16b5ae6cfa6677cfb0afa58a71fed8761276322992833a5ec64cb04f577",
+    "build_solidworks.py": "814664e69fbfbbb4f6f4f4b2d83585aab838a58ba85810888d5f7b1d759f77d2",
+    "feature_relations.py": "995b719b7b47ad11a6b8cc9945d76dfd25461c5c5ad6d9a50448bc06f4838b9b",
+    "geometry_analysis.py": "11f0d2d4ecef6685e731392a32ae40a69e3d18486892f5106c84da8794728f81",
+    "mesh_diagnostics.py": "59a6740a6ac332055a06812b1ecf5e263da0fade0e475f76a9afd2d550cfede3",
+    "mesh_evidence.py": "6905e1f5248cb1b16e7e370f872c3a336a2edfc8f2238d1ea60d3d802f493f36",
+    "reverse_assistant.py": "23741c6cd7c2ecac202cf58dd33987598eb75fea7622806ecc78b9ade4d395bf",
+    "section_analysis.py": "fb7b32424fecda35c677db268396dc76bd0528b169d14a21411a6215db9abdb0",
+    "threemf_io.py": "ea9009969ab14907e0f43904ec6d4b02f26996e08bec4eef0fea00a95d29d01b",
+    "slicer_metadata.py": "3390aed189d974890da8cf35e99980375cef26d299c1f4e756c32ed94fbfe658",
+    "cylinder_segmentation.py": "3314726c9b9e195e7158ca3f3e57aac647f0a9fa56c8283601ce96f7bd283d7c"
+  },
+  "unit_tests_passed": 400,
+  "checked_corpus_cases": 14,
+  "complete_section_gzip_files_checked": 738,
+  "saved_mesh_array_pairs_checked": 52,
+  "known_missed_supports_recovered": [
+    {
+      "instance": 0,
+      "body": 0,
+      "source_face_range_inclusive": [
+        13610,
+        13978
+      ],
+      "candidate_id": "instance_0000_shell_0000_cylinder_013610",
+      "radius_mm": 1.2000000205971206,
+      "axial_length_mm": 1.3872816042809208,
+      "max_surface_residual_mm": 0.00024217022965711266,
+      "exact_original_source_patch_recovered": true
+    },
+    {
+      "instance": 0,
+      "body": 0,
+      "source_face_range_inclusive": [
+        13979,
+        14347
+      ],
+      "candidate_id": "instance_0000_shell_0000_cylinder_013979",
+      "radius_mm": 1.1999999786969806,
+      "axial_length_mm": 1.387281552666063,
+      "max_surface_residual_mm": 0.00024215945914485282,
+      "exact_original_source_patch_recovered": true
+    },
+    {
+      "instance": 1,
+      "body": 0,
+      "source_face_range_inclusive": [
+        13610,
+        13978
+      ],
+      "candidate_id": "instance_0001_shell_0000_cylinder_013610",
+      "radius_mm": 1.200000020597119,
+      "axial_length_mm": 1.3872816042809188,
+      "max_surface_residual_mm": 0.00024217022966110946,
+      "exact_original_source_patch_recovered": true
+    },
+    {
+      "instance": 1,
+      "body": 0,
+      "source_face_range_inclusive": [
+        13979,
+        14347
+      ],
+      "candidate_id": "instance_0001_shell_0000_cylinder_013979",
+      "radius_mm": 1.1999999786969804,
+      "axial_length_mm": 1.3872815526660542,
+      "max_surface_residual_mm": 0.00024215945914152215,
+      "exact_original_source_patch_recovered": true
+    }
+  ],
+  "retro_local_candidates_refit_with_unchanged_v041": [
+    {
+      "instance": 0,
+      "source_face_min": 13610,
+      "radius_mm": 1.2000000205971206,
+      "max_surface_residual_mm": 0.00024217022965711266
+    },
+    {
+      "instance": 0,
+      "source_face_min": 13979,
+      "radius_mm": 1.1999999786969797,
+      "max_surface_residual_mm": 0.00024215945914396464
+    },
+    {
+      "instance": 0,
+      "source_face_min": 2515,
+      "radius_mm": 0.9998871958013723,
+      "max_surface_residual_mm": 0.0019236916984998187
+    },
+    {
+      "instance": 0,
+      "source_face_min": 4717,
+      "radius_mm": 0.9998871958013678,
+      "max_surface_residual_mm": 0.0019236916984995966
+    },
+    {
+      "instance": 0,
+      "source_face_min": 4959,
+      "radius_mm": 0.9998871958013721,
+      "max_surface_residual_mm": 0.0019236916985001518
+    },
+    {
+      "instance": 0,
+      "source_face_min": 5201,
+      "radius_mm": 0.999887195788307,
+      "max_surface_residual_mm": 0.0019236917015541533
+    },
+    {
+      "instance": 0,
+      "source_face_min": 25074,
+      "radius_mm": 0.9998871957883184,
+      "max_surface_residual_mm": 0.0019236917031840717
+    },
+    {
+      "instance": 0,
+      "source_face_min": 25316,
+      "radius_mm": 0.9998871958013269,
+      "max_surface_residual_mm": 0.0019236917002218856
+    },
+    {
+      "instance": 0,
+      "source_face_min": 25558,
+      "radius_mm": 0.9998871958013231,
+      "max_surface_residual_mm": 0.0019236917002214415
+    },
+    {
+      "instance": 0,
+      "source_face_min": 25800,
+      "radius_mm": 0.9998871957883192,
+      "max_surface_residual_mm": 0.0019236917031844047
+    },
+    {
+      "instance": 0,
+      "source_face_min": 25982,
+      "radius_mm": 0.9998871958013269,
+      "max_surface_residual_mm": 0.0019236917002218856
+    },
+    {
+      "instance": 0,
+      "source_face_min": 26286,
+      "radius_mm": 0.999887195788315,
+      "max_surface_residual_mm": 0.0019236917031839607
+    },
+    {
+      "instance": 1,
+      "source_face_min": 13610,
+      "radius_mm": 1.200000020597119,
+      "max_surface_residual_mm": 0.00024217022966066537
+    },
+    {
+      "instance": 1,
+      "source_face_min": 13979,
+      "radius_mm": 1.1999999786969806,
+      "max_surface_residual_mm": 0.00024215945914196624
+    },
+    {
+      "instance": 1,
+      "source_face_min": 2515,
+      "radius_mm": 0.999887195801362,
+      "max_surface_residual_mm": 0.0019236916985094776
+    },
+    {
+      "instance": 1,
+      "source_face_min": 4717,
+      "radius_mm": 0.9998871958013588,
+      "max_surface_residual_mm": 0.0019236916985094776
+    },
+    {
+      "instance": 1,
+      "source_face_min": 4959,
+      "radius_mm": 0.9998871958013625,
+      "max_surface_residual_mm": 0.0019236916985100327
+    },
+    {
+      "instance": 1,
+      "source_face_min": 5201,
+      "radius_mm": 0.9998871957883123,
+      "max_surface_residual_mm": 0.0019236917015555965
+    },
+    {
+      "instance": 1,
+      "source_face_min": 25074,
+      "radius_mm": 0.9998871957883062,
+      "max_surface_residual_mm": 0.0019236917031865142
+    },
+    {
+      "instance": 1,
+      "source_face_min": 25316,
+      "radius_mm": 0.9998871958013547,
+      "max_surface_residual_mm": 0.0019236917002156684
+    },
+    {
+      "instance": 1,
+      "source_face_min": 25558,
+      "radius_mm": 0.9998871958013522,
+      "max_surface_residual_mm": 0.0019236917002154463
+    },
+    {
+      "instance": 1,
+      "source_face_min": 25800,
+      "radius_mm": 0.9998871957883066,
+      "max_surface_residual_mm": 0.0019236917031868472
+    },
+    {
+      "instance": 1,
+      "source_face_min": 25982,
+      "radius_mm": 0.9998871958013549,
+      "max_surface_residual_mm": 0.0019236917002154463
+    },
+    {
+      "instance": 1,
+      "source_face_min": 26286,
+      "radius_mm": 0.9998871957883039,
+      "max_surface_residual_mm": 0.0019236917031864031
+    }
+  ],
+  "real_baseline_direction_files_with_identical_exact_failures": 495,
+  "real_primary_direction_files_identical": 489,
+  "real_primary_direction_files_changed_from_new_candidate_guided_frame": [
+    {
+      "case_id": "03-oled-retro",
+      "path": "instance-000-body-000/sections.full.json.gz",
+      "changed_keys": [
+        "samples",
+        "sampling_schedule",
+        "section_frame",
+        "direction"
+      ]
+    },
+    {
+      "case_id": "03-oled-retro",
+      "path": "instance-000-body-000/section_direction_01/sections.full.json.gz",
+      "changed_keys": [
+        "samples",
+        "sampling_schedule",
+        "section_frame",
+        "direction"
+      ]
+    },
+    {
+      "case_id": "03-oled-retro",
+      "path": "instance-000-body-000/section_direction_02/sections.full.json.gz",
+      "changed_keys": [
+        "samples",
+        "sampling_schedule",
+        "section_frame",
+        "direction"
+      ]
+    },
+    {
+      "case_id": "03-oled-retro",
+      "path": "instance-001-body-000/sections.full.json.gz",
+      "changed_keys": [
+        "samples",
+        "sampling_schedule",
+        "section_frame",
+        "direction"
+      ]
+    },
+    {
+      "case_id": "03-oled-retro",
+      "path": "instance-001-body-000/section_direction_01/sections.full.json.gz",
+      "changed_keys": [
+        "samples",
+        "sampling_schedule",
+        "section_frame",
+        "direction"
+      ]
+    },
+    {
+      "case_id": "03-oled-retro",
+      "path": "instance-001-body-000/section_direction_02/sections.full.json.gz",
+      "changed_keys": [
+        "samples",
+        "sampling_schedule",
+        "section_frame",
+        "direction"
+      ]
+    }
+  ],
+  "event_probe_sides_checked_all_corpus": 138,
+  "cases": [
+    {
+      "id": "01-air-sensor",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_partial_not_cad_complete",
+      "local_candidate_count": 0
+    },
+    {
+      "id": "02-oled-small",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_partial_not_cad_complete",
+      "local_candidate_count": 0
+    },
+    {
+      "id": "03-oled-retro",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_partial_not_cad_complete",
+      "local_candidate_count": 24
+    },
+    {
+      "id": "official-box",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_complete_not_cad_complete",
+      "local_candidate_count": 0
+    },
+    {
+      "id": "official-box_prod",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_complete_not_cad_complete",
+      "local_candidate_count": 0
+    },
+    {
+      "id": "official-box_sliced",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_complete_not_cad_complete",
+      "local_candidate_count": 0
+    },
+    {
+      "id": "official-cube_gears",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_partial_not_cad_complete",
+      "local_candidate_count": 62
+    },
+    {
+      "id": "official-cube_gears_prod_req",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_partial_not_cad_complete",
+      "local_candidate_count": 62
+    },
+    {
+      "id": "official-dodeca_chain_loop_color",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_partial_not_cad_complete",
+      "local_candidate_count": 0
+    },
+    {
+      "id": "official-pyramid",
+      "expected_unsupported_geometry_rejected": true
+    },
+    {
+      "id": "official-pyramid_vertexcolor",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_complete_not_cad_complete",
+      "local_candidate_count": 0
+    },
+    {
+      "id": "official-rhombicuboctahedron_color",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_partial_not_cad_complete",
+      "local_candidate_count": 0
+    },
+    {
+      "id": "official-sphere_logo",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_complete_not_cad_complete",
+      "local_candidate_count": 0
+    },
+    {
+      "id": "user-sample",
+      "source_hash_and_full_arrays_verified": true,
+      "status": "analysis_partial_not_cad_complete",
+      "local_candidate_count": 0
+    }
+  ],
+  "limitations": [
+    "Known four patches are two positions repeated in two instances, not full-model recall ground truth.",
+    "Unchanged original fitter acceptance is not independent semantic or bidirectional CAD ground truth.",
+    "No SLDPRT, Boolean material, trim topology or manufacturing settings have been recovered."
+  ]
+}

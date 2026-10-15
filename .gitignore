@@ -1,0 +1,45 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Credentials and local editor/OS state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pub
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# User/third-party models and generated CAD/evidence
+*.3mf
+*.3MF
+*.stl
+*.step
+*.stp
+*.sldprt
+*.SLDPRT
+*.npz
+*.full.json.gz
+*.zip
+*.log
+results/
+**/results/
+inputs/
+baseline/
+evidence/
+deliverables/
+validation/runs/
+validation/reruns/
+validation/delivery-SHA256SUMS.json
+validation/local-candidate-inventory.json

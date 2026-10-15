@@ -1,0 +1,87 @@
+{
+  "upstream_repository": "https://github.com/3MFConsortium/3mf-samples",
+  "upstream_commit": "665e20dc4d7777fd4c9702bca86a2d4028440337",
+  "scope": "Official examples (9 geometry packages, 1 expected beam-lattice rejection); not representative of all exporters",
+  "cases": [
+    {
+      "id": "box",
+      "local_path": "official-inputs/box.3mf",
+      "upstream_path": "examples/core/box.3mf",
+      "source_url": "https://github.com/3MFConsortium/3mf-samples/blob/665e20dc4d7777fd4c9702bca86a2d4028440337/examples/core/box.3mf",
+      "sha256": "d45d18cbbc4f189c2951b5c8c400333c0de633c4b88608dc6f5416b8f7677524",
+      "expected_outcome": "accepted_for_geometry"
+    },
+    {
+      "id": "cube_gears",
+      "local_path": "official-inputs/cube_gears.3mf",
+      "upstream_path": "examples/core/cube_gears.3mf",
+      "source_url": "https://github.com/3MFConsortium/3mf-samples/blob/665e20dc4d7777fd4c9702bca86a2d4028440337/examples/core/cube_gears.3mf",
+      "sha256": "5694dd00fec4b1ec118c33840a1984be5ca01494930fd1bdef102b9b70a2d2c2",
+      "expected_outcome": "accepted_for_geometry"
+    },
+    {
+      "id": "pyramid_vertexcolor",
+      "local_path": "official-inputs/pyramid_vertexcolor.3mf",
+      "upstream_path": "examples/material/pyramid_vertexcolor.3mf",
+      "source_url": "https://github.com/3MFConsortium/3mf-samples/blob/665e20dc4d7777fd4c9702bca86a2d4028440337/examples/material/pyramid_vertexcolor.3mf",
+      "sha256": "1f79beb48ede62406b780a7f42933a05ff695e85d6a95124a2d0eff782b91555",
+      "expected_outcome": "accepted_for_geometry"
+    },
+    {
+      "id": "rhombicuboctahedron_color",
+      "local_path": "official-inputs/rhombicuboctahedron_color.3mf",
+      "upstream_path": "examples/material/rhombicuboctahedron_color.3mf",
+      "source_url": "https://github.com/3MFConsortium/3mf-samples/blob/665e20dc4d7777fd4c9702bca86a2d4028440337/examples/material/rhombicuboctahedron_color.3mf",
+      "sha256": "76e67544e5398831d29c45c7e424909c022beb55203a0aeaa0778a06d3a5dcb0",
+      "expected_outcome": "accepted_for_geometry"
+    },
+    {
+      "id": "dodeca_chain_loop_color",
+      "local_path": "official-inputs/dodeca_chain_loop_color.3mf",
+      "upstream_path": "examples/material/dodeca_chain_loop_color.3mf",
+      "source_url": "https://github.com/3MFConsortium/3mf-samples/blob/665e20dc4d7777fd4c9702bca86a2d4028440337/examples/material/dodeca_chain_loop_color.3mf",
+      "sha256": "fe4bdcd667044547faf50ce29d0af7c6f2ea39c11caa8c4b26e841d888863cc0",
+      "expected_outcome": "accepted_for_geometry"
+    },
+    {
+      "id": "sphere_logo",
+      "local_path": "official-inputs/sphere_logo.3mf",
+      "upstream_path": "examples/material/sphere_logo.3mf",
+      "source_url": "https://github.com/3MFConsortium/3mf-samples/blob/665e20dc4d7777fd4c9702bca86a2d4028440337/examples/material/sphere_logo.3mf",
+      "sha256": "2e46dbb7546545f4dada163ecc0f8747d35b2f42296b7467d03f30542b1ad24c",
+      "expected_outcome": "accepted_for_geometry"
+    },
+    {
+      "id": "box_prod",
+      "local_path": "official-inputs/box_prod.3mf",
+      "upstream_path": "examples/production/box_prod.3mf",
+      "source_url": "https://github.com/3MFConsortium/3mf-samples/blob/665e20dc4d7777fd4c9702bca86a2d4028440337/examples/production/box_prod.3mf",
+      "sha256": "66c24c97b58a32a45b33c5e6537b03c981c4ad4a23623f5bbf344d8fcdfc612e",
+      "expected_outcome": "accepted_for_geometry"
+    },
+    {
+      "id": "cube_gears_prod_req",
+      "local_path": "official-inputs/cube_gears_prod_req.3mf",
+      "upstream_path": "examples/production/cube_gears_prod_req.3mf",
+      "source_url": "https://github.com/3MFConsortium/3mf-samples/blob/665e20dc4d7777fd4c9702bca86a2d4028440337/examples/production/cube_gears_prod_req.3mf",
+      "sha256": "2b79685a4f2ef1baff71faa535fbc9349d7aae2fa2accb95f873482af38d748f",
+      "expected_outcome": "accepted_for_geometry"
+    },
+    {
+      "id": "pyramid",
+      "local_path": "official-inputs/pyramid.3mf",
+      "upstream_path": "examples/beam lattice/pyramid.3mf",
+      "source_url": "https://github.com/3MFConsortium/3mf-samples/blob/665e20dc4d7777fd4c9702bca86a2d4028440337/examples/beam%20lattice/pyramid.3mf",
+      "sha256": "187bbb00a3ad0b31096d27e7a1638736f4560ef3bf9b2a05ba9aa2e5864004f8",
+      "expected_outcome": "rejected"
+    },
+    {
+      "id": "box_sliced",
+      "local_path": "official-inputs/box_sliced.3mf",
+      "upstream_path": "examples/slices/box_sliced.3mf",
+      "source_url": "https://github.com/3MFConsortium/3mf-samples/blob/665e20dc4d7777fd4c9702bca86a2d4028440337/examples/slices/box_sliced.3mf",
+      "sha256": "29cf727f185fac88e9cc6c615753a86d388ccfd687ebfee8bce03cc36615b856",
+      "expected_outcome": "accepted_for_geometry"
+    }
+  ]
+}

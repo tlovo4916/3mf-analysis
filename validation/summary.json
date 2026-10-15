@@ -1,0 +1,411 @@
+{
+  "created_at_utc": "2026-10-15T08:33:54.988360+00:00",
+  "analyzer_version": "0.5.0",
+  "unit_tests_passed": 400,
+  "synthetic_sweep_positive_matches": 24,
+  "synthetic_sweep_positive_total": 24,
+  "synthetic_sweep_torus_candidates": 0,
+  "synthetic_sweep_torus_cases": 12,
+  "real_files": [
+    {
+      "case_id": "01-air-sensor",
+      "source_name": "01-air-sensor.3mf",
+      "source_sha256": "6340eb35a4a8ab489d673cd5b65bb2e3d2cea2e5c1e9116d77f44b0fed05f1c9",
+      "analyzer_version": "0.5.0",
+      "source_hashes": {
+        "analytic_surfaces.py": "2ffcdea3566661d9bffcb45fc1f910a241b679237359033b7d71f9dbde560ece",
+        "assistant.py": "3609c16b5ae6cfa6677cfb0afa58a71fed8761276322992833a5ec64cb04f577",
+        "build_solidworks.py": "814664e69fbfbbb4f6f4f4b2d83585aab838a58ba85810888d5f7b1d759f77d2",
+        "feature_relations.py": "995b719b7b47ad11a6b8cc9945d76dfd25461c5c5ad6d9a50448bc06f4838b9b",
+        "geometry_analysis.py": "11f0d2d4ecef6685e731392a32ae40a69e3d18486892f5106c84da8794728f81",
+        "mesh_diagnostics.py": "59a6740a6ac332055a06812b1ecf5e263da0fade0e475f76a9afd2d550cfede3",
+        "mesh_evidence.py": "6905e1f5248cb1b16e7e370f872c3a336a2edfc8f2238d1ea60d3d802f493f36",
+        "reverse_assistant.py": "23741c6cd7c2ecac202cf58dd33987598eb75fea7622806ecc78b9ade4d395bf",
+        "section_analysis.py": "fb7b32424fecda35c677db268396dc76bd0528b169d14a21411a6215db9abdb0",
+        "test_3mf_compatibility.py": "5eca8b6681be60d8d60374455ca1000996254ccd1610dce57edbdc220365fc7c",
+        "test_analytic_surfaces.py": "0ce552247e8257a987c2865b67844b6d26c9b83788c49d38762a6d51b399ab25",
+        "test_build_safety.py": "bda4bd973778126a60d2bf6cb0696b71f03d2cbfa3c208a72ea2f29476699378",
+        "test_build_validation.py": "f5117ff00319ead9a2f88ecbfc1612027ff801df102408f521d43692938d82a5",
+        "test_continuation.py": "35f8876fd28f839522487394630de1f76e7fc02f8059df1dcda517b9a5afbfc8",
+        "test_feature_relations.py": "93a56fcd1abfbf74cefaf2927f81468b491f41c62d23b1197cc2cecf6f79b082",
+        "test_geometry.py": "d4955a5157f0569aef892bf06d8bca07022d90eb322cc1ce3bc1a464a6a7ddd5",
+        "test_geometry_evidence.py": "43f56a7ce8cf89d95708d3e60bd7a1e0e42ad0f79006e0332753e022b999e371",
+        "test_mesh_diagnostics.py": "0dfe02652cb848b4fae9da6f2d61d491faa48409bfe2194677af6d34ba8cc85b",
+        "test_mesh_evidence.py": "16f2fd32572ab480517daca36406d9f5e5a3b54056bb126b93d654a84740a2e3",
+        "test_pipeline.py": "b3f16ce96245852fa2292490b3af5ad6e8faac31ab59bb9375e1aadcd7a9223c",
+        "test_reverse.py": "875932304d08b19d9123f196c055eac6f6a2ac11299486a7d288770fa8716f08",
+        "test_sections.py": "d764c013a0c66407712089c41d01f0a17cc996a3a1f8e25797f90a31c0b65a00",
+        "test_threemf_io.py": "d14d823164f5da4f3f45ffcb627e866115d02f695724fa50067eba715d7a7d30",
+        "threemf_io.py": "ea9009969ab14907e0f43904ec6d4b02f26996e08bec4eef0fea00a95d29d01b",
+        "slicer_metadata.py": "3390aed189d974890da8cf35e99980375cef26d299c1f4e756c32ed94fbfe658",
+        "test_section_event_probes.py": "39f7a999ea25051e32268654296392e234e252fee2cb464b7194e8496b8be194",
+        "test_slicer_metadata.py": "5ff83017c97b9e6fc18eb0c654826d916a7e8e1e51f41d111fd0a0d11914293c",
+        "cylinder_segmentation.py": "3314726c9b9e195e7158ca3f3e57aac647f0a9fa56c8283601ce96f7bd283d7c",
+        "test_cylinder_segmentation.py": "7c52017ad4f08c232a3132a63e4a925ea93890d541066b75017517812832ba13"
+      },
+      "default_options_unchanged": true,
+      "source_repair_performed": false,
+      "strict_reader": {
+        "readable": true,
+        "instances": 2,
+        "faces": 7250,
+        "document_coverage_complete": true,
+        "role_mapping_status": "resolved",
+        "slicer_roles": {
+          "normal_part": 2
+        },
+        "elapsed_seconds": 0.1675205989740789
+      },
+      "compatible_reader": {
+        "readable": true,
+        "instances": 2,
+        "faces": 7250,
+        "document_coverage_complete": true,
+        "role_mapping_status": "resolved",
+        "slicer_roles": {
+          "normal_part": 2
+        },
+        "elapsed_seconds": 0.23635819891933352
+      },
+      "pipeline": {
+        "produced_report": true,
+        "status": "analysis_partial_not_cad_complete",
+        "instance_count": 2,
+        "shell_count": 2,
+        "source_faces": 7250,
+        "surface_counts": {
+          "planes": 472,
+          "cylinders": 9,
+          "cones": 0,
+          "spheres": 0
+        },
+        "local_cylinder_count": 0,
+        "successful_primary_sections": 76,
+        "failed_primary_sections": 3,
+        "failed_directions": 0,
+        "event_probe_summary": {
+          "event_failure_count": 3,
+          "attempted_section_count": 0,
+          "successful_side_count": 0,
+          "failed_side_count": 0,
+          "unavailable_side_count": 6,
+          "exact_failures_replaced": false,
+          "finite_offset_only_not_limit_certification": true
+        },
+        "candidate_analysis_coverage_complete": true,
+        "candidate_recall_certified": false,
+        "has_candidate_search_limits": true,
+        "has_candidate_analysis_errors": false,
+        "has_section_analysis_errors": true,
+        "has_reconstruction_blockers": true,
+        "analysis_budget": {
+          "max_analyzed_faces": 250000,
+          "max_bodies": 128,
+          "analyzed_faces": 7250,
+          "analyzed_bodies": 2,
+          "unexamined_shell_count": 0,
+          "max_section_directions": 3,
+          "primary_max_layers": 40,
+          "secondary_max_layers": 7
+        },
+        "slicer_metadata": {
+          "role_mapping_status": "resolved",
+          "negative_component_occurrence_count": 0,
+          "resolved_role_occurrence_counts": {
+            "normal_part": 2
+          },
+          "config_issues": []
+        },
+        "cad_reconstructed": false,
+        "elapsed_seconds": 25.977,
+        "peak_process_rss_kib": 172148
+      }
+    },
+    {
+      "case_id": "02-oled-small",
+      "source_name": "02-oled-small.3mf",
+      "source_sha256": "3732e760192f541668debeba18ac33995d02be4ba183c1c6c21421525d7f3551",
+      "analyzer_version": "0.5.0",
+      "source_hashes": {
+        "analytic_surfaces.py": "2ffcdea3566661d9bffcb45fc1f910a241b679237359033b7d71f9dbde560ece",
+        "assistant.py": "3609c16b5ae6cfa6677cfb0afa58a71fed8761276322992833a5ec64cb04f577",
+        "build_solidworks.py": "814664e69fbfbbb4f6f4f4b2d83585aab838a58ba85810888d5f7b1d759f77d2",
+        "feature_relations.py": "995b719b7b47ad11a6b8cc9945d76dfd25461c5c5ad6d9a50448bc06f4838b9b",
+        "geometry_analysis.py": "11f0d2d4ecef6685e731392a32ae40a69e3d18486892f5106c84da8794728f81",
+        "mesh_diagnostics.py": "59a6740a6ac332055a06812b1ecf5e263da0fade0e475f76a9afd2d550cfede3",
+        "mesh_evidence.py": "6905e1f5248cb1b16e7e370f872c3a336a2edfc8f2238d1ea60d3d802f493f36",
+        "reverse_assistant.py": "23741c6cd7c2ecac202cf58dd33987598eb75fea7622806ecc78b9ade4d395bf",
+        "section_analysis.py": "fb7b32424fecda35c677db268396dc76bd0528b169d14a21411a6215db9abdb0",
+        "test_3mf_compatibility.py": "5eca8b6681be60d8d60374455ca1000996254ccd1610dce57edbdc220365fc7c",
+        "test_analytic_surfaces.py": "0ce552247e8257a987c2865b67844b6d26c9b83788c49d38762a6d51b399ab25",
+        "test_build_safety.py": "bda4bd973778126a60d2bf6cb0696b71f03d2cbfa3c208a72ea2f29476699378",
+        "test_build_validation.py": "f5117ff00319ead9a2f88ecbfc1612027ff801df102408f521d43692938d82a5",
+        "test_continuation.py": "35f8876fd28f839522487394630de1f76e7fc02f8059df1dcda517b9a5afbfc8",
+        "test_feature_relations.py": "93a56fcd1abfbf74cefaf2927f81468b491f41c62d23b1197cc2cecf6f79b082",
+        "test_geometry.py": "d4955a5157f0569aef892bf06d8bca07022d90eb322cc1ce3bc1a464a6a7ddd5",
+        "test_geometry_evidence.py": "43f56a7ce8cf89d95708d3e60bd7a1e0e42ad0f79006e0332753e022b999e371",
+        "test_mesh_diagnostics.py": "0dfe02652cb848b4fae9da6f2d61d491faa48409bfe2194677af6d34ba8cc85b",
+        "test_mesh_evidence.py": "16f2fd32572ab480517daca36406d9f5e5a3b54056bb126b93d654a84740a2e3",
+        "test_pipeline.py": "b3f16ce96245852fa2292490b3af5ad6e8faac31ab59bb9375e1aadcd7a9223c",
+        "test_reverse.py": "875932304d08b19d9123f196c055eac6f6a2ac11299486a7d288770fa8716f08",
+        "test_sections.py": "d764c013a0c66407712089c41d01f0a17cc996a3a1f8e25797f90a31c0b65a00",
+        "test_threemf_io.py": "d14d823164f5da4f3f45ffcb627e866115d02f695724fa50067eba715d7a7d30",
+        "threemf_io.py": "ea9009969ab14907e0f43904ec6d4b02f26996e08bec4eef0fea00a95d29d01b",
+        "slicer_metadata.py": "3390aed189d974890da8cf35e99980375cef26d299c1f4e756c32ed94fbfe658",
+        "test_section_event_probes.py": "39f7a999ea25051e32268654296392e234e252fee2cb464b7194e8496b8be194",
+        "test_slicer_metadata.py": "5ff83017c97b9e6fc18eb0c654826d916a7e8e1e51f41d111fd0a0d11914293c",
+        "cylinder_segmentation.py": "3314726c9b9e195e7158ca3f3e57aac647f0a9fa56c8283601ce96f7bd283d7c",
+        "test_cylinder_segmentation.py": "7c52017ad4f08c232a3132a63e4a925ea93890d541066b75017517812832ba13"
+      },
+      "default_options_unchanged": true,
+      "source_repair_performed": false,
+      "strict_reader": {
+        "readable": false,
+        "error_type": "ThreeMFError",
+        "error": "Unsupported non-model object type 'other': 3D/Objects/object_10.model:2",
+        "elapsed_seconds": 0.17728536494541913
+      },
+      "compatible_reader": {
+        "readable": true,
+        "instances": 4,
+        "faces": 42512,
+        "document_coverage_complete": true,
+        "role_mapping_status": "resolved",
+        "slicer_roles": {
+          "normal_part": 9,
+          "negative_part": 1
+        },
+        "elapsed_seconds": 1.1253745139110833
+      },
+      "pipeline": {
+        "produced_report": true,
+        "status": "analysis_partial_not_cad_complete",
+        "instance_count": 4,
+        "shell_count": 43,
+        "source_faces": 42512,
+        "surface_counts": {
+          "planes": 749,
+          "cylinders": 32,
+          "cones": 8,
+          "spheres": 0
+        },
+        "local_cylinder_count": 0,
+        "successful_primary_sections": 1210,
+        "failed_primary_sections": 180,
+        "failed_directions": 0,
+        "event_probe_summary": {
+          "event_failure_count": 0,
+          "attempted_section_count": 0,
+          "successful_side_count": 0,
+          "failed_side_count": 0,
+          "unavailable_side_count": 0,
+          "exact_failures_replaced": false,
+          "finite_offset_only_not_limit_certification": true
+        },
+        "candidate_analysis_coverage_complete": true,
+        "candidate_recall_certified": false,
+        "has_candidate_search_limits": true,
+        "has_candidate_analysis_errors": false,
+        "has_section_analysis_errors": true,
+        "has_reconstruction_blockers": true,
+        "analysis_budget": {
+          "max_analyzed_faces": 250000,
+          "max_bodies": 128,
+          "analyzed_faces": 42512,
+          "analyzed_bodies": 43,
+          "unexamined_shell_count": 0,
+          "max_section_directions": 3,
+          "primary_max_layers": 40,
+          "secondary_max_layers": 7
+        },
+        "slicer_metadata": {
+          "role_mapping_status": "resolved",
+          "negative_component_occurrence_count": 1,
+          "resolved_role_occurrence_counts": {
+            "normal_part": 9,
+            "negative_part": 1
+          },
+          "config_issues": []
+        },
+        "cad_reconstructed": false,
+        "elapsed_seconds": 98.027,
+        "peak_process_rss_kib": 237988
+      }
+    },
+    {
+      "case_id": "03-oled-retro",
+      "source_name": "03-oled-retro.3mf",
+      "source_sha256": "dea9b6f835f3d04b97de3d8da1741b0112055ad89aebc8b2c17411c498823300",
+      "analyzer_version": "0.5.0",
+      "source_hashes": {
+        "analytic_surfaces.py": "2ffcdea3566661d9bffcb45fc1f910a241b679237359033b7d71f9dbde560ece",
+        "assistant.py": "3609c16b5ae6cfa6677cfb0afa58a71fed8761276322992833a5ec64cb04f577",
+        "build_solidworks.py": "814664e69fbfbbb4f6f4f4b2d83585aab838a58ba85810888d5f7b1d759f77d2",
+        "feature_relations.py": "995b719b7b47ad11a6b8cc9945d76dfd25461c5c5ad6d9a50448bc06f4838b9b",
+        "geometry_analysis.py": "11f0d2d4ecef6685e731392a32ae40a69e3d18486892f5106c84da8794728f81",
+        "mesh_diagnostics.py": "59a6740a6ac332055a06812b1ecf5e263da0fade0e475f76a9afd2d550cfede3",
+        "mesh_evidence.py": "6905e1f5248cb1b16e7e370f872c3a336a2edfc8f2238d1ea60d3d802f493f36",
+        "reverse_assistant.py": "23741c6cd7c2ecac202cf58dd33987598eb75fea7622806ecc78b9ade4d395bf",
+        "section_analysis.py": "fb7b32424fecda35c677db268396dc76bd0528b169d14a21411a6215db9abdb0",
+        "test_3mf_compatibility.py": "5eca8b6681be60d8d60374455ca1000996254ccd1610dce57edbdc220365fc7c",
+        "test_analytic_surfaces.py": "0ce552247e8257a987c2865b67844b6d26c9b83788c49d38762a6d51b399ab25",
+        "test_build_safety.py": "bda4bd973778126a60d2bf6cb0696b71f03d2cbfa3c208a72ea2f29476699378",
+        "test_build_validation.py": "f5117ff00319ead9a2f88ecbfc1612027ff801df102408f521d43692938d82a5",
+        "test_continuation.py": "35f8876fd28f839522487394630de1f76e7fc02f8059df1dcda517b9a5afbfc8",
+        "test_feature_relations.py": "93a56fcd1abfbf74cefaf2927f81468b491f41c62d23b1197cc2cecf6f79b082",
+        "test_geometry.py": "d4955a5157f0569aef892bf06d8bca07022d90eb322cc1ce3bc1a464a6a7ddd5",
+        "test_geometry_evidence.py": "43f56a7ce8cf89d95708d3e60bd7a1e0e42ad0f79006e0332753e022b999e371",
+        "test_mesh_diagnostics.py": "0dfe02652cb848b4fae9da6f2d61d491faa48409bfe2194677af6d34ba8cc85b",
+        "test_mesh_evidence.py": "16f2fd32572ab480517daca36406d9f5e5a3b54056bb126b93d654a84740a2e3",
+        "test_pipeline.py": "b3f16ce96245852fa2292490b3af5ad6e8faac31ab59bb9375e1aadcd7a9223c",
+        "test_reverse.py": "875932304d08b19d9123f196c055eac6f6a2ac11299486a7d288770fa8716f08",
+        "test_sections.py": "d764c013a0c66407712089c41d01f0a17cc996a3a1f8e25797f90a31c0b65a00",
+        "test_threemf_io.py": "d14d823164f5da4f3f45ffcb627e866115d02f695724fa50067eba715d7a7d30",
+        "threemf_io.py": "ea9009969ab14907e0f43904ec6d4b02f26996e08bec4eef0fea00a95d29d01b",
+        "slicer_metadata.py": "3390aed189d974890da8cf35e99980375cef26d299c1f4e756c32ed94fbfe658",
+        "test_section_event_probes.py": "39f7a999ea25051e32268654296392e234e252fee2cb464b7194e8496b8be194",
+        "test_slicer_metadata.py": "5ff83017c97b9e6fc18eb0c654826d916a7e8e1e51f41d111fd0a0d11914293c",
+        "cylinder_segmentation.py": "3314726c9b9e195e7158ca3f3e57aac647f0a9fa56c8283601ce96f7bd283d7c",
+        "test_cylinder_segmentation.py": "7c52017ad4f08c232a3132a63e4a925ea93890d541066b75017517812832ba13"
+      },
+      "default_options_unchanged": true,
+      "source_repair_performed": false,
+      "strict_reader": {
+        "readable": false,
+        "error_type": "ThreeMFError",
+        "error": "Unsupported non-model object type 'other': 3D/Objects/object_7.model:9",
+        "elapsed_seconds": 1.8433580180862918
+      },
+      "compatible_reader": {
+        "readable": true,
+        "instances": 4,
+        "faces": 219816,
+        "document_coverage_complete": true,
+        "role_mapping_status": "resolved",
+        "slicer_roles": {
+          "normal_part": 18,
+          "negative_part": 2
+        },
+        "elapsed_seconds": 6.0721774940611795
+      },
+      "pipeline": {
+        "produced_report": true,
+        "status": "analysis_partial_not_cad_complete",
+        "instance_count": 4,
+        "shell_count": 120,
+        "source_faces": 219816,
+        "surface_counts": {
+          "planes": 2450,
+          "cylinders": 24,
+          "cones": 0,
+          "spheres": 0
+        },
+        "local_cylinder_count": 24,
+        "successful_primary_sections": 2884,
+        "failed_primary_sections": 4,
+        "failed_directions": 0,
+        "event_probe_summary": {
+          "event_failure_count": 4,
+          "attempted_section_count": 1,
+          "successful_side_count": 1,
+          "failed_side_count": 0,
+          "unavailable_side_count": 7,
+          "exact_failures_replaced": false,
+          "finite_offset_only_not_limit_certification": true
+        },
+        "candidate_analysis_coverage_complete": true,
+        "candidate_recall_certified": false,
+        "has_candidate_search_limits": true,
+        "has_candidate_analysis_errors": false,
+        "has_section_analysis_errors": true,
+        "has_reconstruction_blockers": true,
+        "analysis_budget": {
+          "max_analyzed_faces": 250000,
+          "max_bodies": 128,
+          "analyzed_faces": 219816,
+          "analyzed_bodies": 120,
+          "unexamined_shell_count": 0,
+          "max_section_directions": 3,
+          "primary_max_layers": 40,
+          "secondary_max_layers": 7
+        },
+        "slicer_metadata": {
+          "role_mapping_status": "resolved",
+          "negative_component_occurrence_count": 2,
+          "resolved_role_occurrence_counts": {
+            "normal_part": 18,
+            "negative_part": 2
+          },
+          "config_issues": []
+        },
+        "cad_reconstructed": false,
+        "elapsed_seconds": 245.345,
+        "peak_process_rss_kib": 573892
+      }
+    }
+  ],
+  "official_count": 10,
+  "official_readable_count": 9,
+  "official_partial_count": 4,
+  "known_supports_recovered": [
+    {
+      "instance": 0,
+      "body": 0,
+      "source_face_range_inclusive": [
+        13610,
+        13978
+      ],
+      "candidate_id": "instance_0000_shell_0000_cylinder_013610",
+      "radius_mm": 1.2000000205971206,
+      "axial_length_mm": 1.3872816042809208,
+      "max_surface_residual_mm": 0.00024217022965711266,
+      "exact_original_source_patch_recovered": true
+    },
+    {
+      "instance": 0,
+      "body": 0,
+      "source_face_range_inclusive": [
+        13979,
+        14347
+      ],
+      "candidate_id": "instance_0000_shell_0000_cylinder_013979",
+      "radius_mm": 1.1999999786969806,
+      "axial_length_mm": 1.387281552666063,
+      "max_surface_residual_mm": 0.00024215945914485282,
+      "exact_original_source_patch_recovered": true
+    },
+    {
+      "instance": 1,
+      "body": 0,
+      "source_face_range_inclusive": [
+        13610,
+        13978
+      ],
+      "candidate_id": "instance_0001_shell_0000_cylinder_013610",
+      "radius_mm": 1.200000020597119,
+      "axial_length_mm": 1.3872816042809188,
+      "max_surface_residual_mm": 0.00024217022966110946,
+      "exact_original_source_patch_recovered": true
+    },
+    {
+      "instance": 1,
+      "body": 0,
+      "source_face_range_inclusive": [
+        13979,
+        14347
+      ],
+      "candidate_id": "instance_0001_shell_0000_cylinder_013979",
+      "radius_mm": 1.1999999786969804,
+      "axial_length_mm": 1.3872815526660542,
+      "max_surface_residual_mm": 0.00024215945914152215,
+      "exact_original_source_patch_recovered": true
+    }
+  ],
+  "real_editable_cad_count": 0,
+  "source_semantics": "author_public_GitHub_not_MakerWorld_direct_not_proven_site_profile_identical",
+  "baseline_kept_unchanged": true,
+  "original_project_merged": false,
+  "solidworks_runtime_verified": false,
+  "recall_certified": false,
+  "limitation": "partial evidence analyzer, not reliable general parametric reverse engineering"
+}

@@ -1,0 +1,49 @@
+{
+  "scope": "public_source_pointers_and_hashes_only_no_input_geometry_redistributed",
+  "site_direct_download_succeeded": false,
+  "site_profile_byte_identity_verified": false,
+  "samples": [
+    {
+      "id": "01-air-sensor",
+      "repo": "FeatureNAB/air-sensor",
+      "file": "enclosure/fine_air_sensor_assembly.3MF",
+      "title": "ESP32 SEN66 空气质量监测器外壳装配",
+      "model_url": "https://makerworld.com/en/models/2918992-smart-desktop-air-quality-monitor-esp32-sen66",
+      "download_channel": "public_author_github_mirror_not_MakerWorld_direct",
+      "makerworld_file_identity_verified": false,
+      "repository_revision": "5268b7fd915b8771f82709f1f18f29a2df786aaf",
+      "upstream_git_blob_sha1": "f592ee6caa44c7b2a3c9fbb263d2700b80d622e6",
+      "source_url": "https://raw.githubusercontent.com/FeatureNAB/air-sensor/5268b7fd915b8771f82709f1f18f29a2df786aaf/enclosure/fine_air_sensor_assembly.3MF",
+      "bytes": 134408,
+      "sha256": "6340eb35a4a8ab489d673cd5b65bb2e3d2cea2e5c1e9116d77f44b0fed05f1c9"
+    },
+    {
+      "id": "02-oled-small",
+      "repo": "Keralots/SmallOLED-PCMonitor",
+      "file": "case/SmallOLED-Case-0.96-PCB.3mf",
+      "title": "0.96英寸 OLED 监视器外壳（PCB版）",
+      "model_url": "https://makerworld.com/en/models/2051935",
+      "download_channel": "public_author_github_mirror_not_MakerWorld_direct",
+      "makerworld_file_identity_verified": false,
+      "repository_revision": "54d91d696e7896f477a25d20504f85f8c1985ae3",
+      "upstream_git_blob_sha1": "aa685618fed9c703613a5a31cdfb8a5309ad482f",
+      "source_url": "https://raw.githubusercontent.com/Keralots/SmallOLED-PCMonitor/54d91d696e7896f477a25d20504f85f8c1985ae3/case/SmallOLED-Case-0.96-PCB.3mf",
+      "bytes": 612127,
+      "sha256": "3732e760192f541668debeba18ac33995d02be4ba183c1c6c21421525d7f3551"
+    },
+    {
+      "id": "03-oled-retro",
+      "repo": "Keralots/SmallOLED-PCMonitor",
+      "file": "case/SmallOLED-Case-1.3-Retro-PCB.3mf",
+      "title": "1.3英寸复古 OLED 外壳（PCB版）",
+      "model_url": "https://makerworld.com/en/models/2185211",
+      "download_channel": "public_author_github_mirror_not_MakerWorld_direct",
+      "makerworld_file_identity_verified": false,
+      "repository_revision": "54d91d696e7896f477a25d20504f85f8c1985ae3",
+      "upstream_git_blob_sha1": "bc9e9a75ff7b56d474b26c6dfcfc3a102f384272",
+      "source_url": "https://raw.githubusercontent.com/Keralots/SmallOLED-PCMonitor/54d91d696e7896f477a25d20504f85f8c1985ae3/case/SmallOLED-Case-1.3-Retro-PCB.3mf",
+      "bytes": 2971599,
+      "sha256": "dea9b6f835f3d04b97de3d8da1741b0112055ad89aebc8b2c17411c498823300"
+    }
+  ]
+}

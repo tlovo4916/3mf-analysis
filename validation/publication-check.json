@@ -1,0 +1,16 @@
+{
+  "production_files_identical_to_tested_v050": 12,
+  "python_files_syntax_checked": 33,
+  "markdown_links_checked": 28,
+  "source_file_count_before_publication_record": 49,
+  "total_bytes_before_publication_record": 921875,
+  "no_models_bundles_credentials_or_unrelated_projects": true,
+  "publication_ready": true,
+  "checked_at_utc": "2026-10-15T09:21:18.582403+00:00",
+  "unit_tests_passed": 400,
+  "unit_test_elapsed_seconds": 40.981,
+  "unit_test_exit_code": 0,
+  "scope": "clean_source_only_publication_no_third_party_inputs_or_full_evidence",
+  "solidworks_runtime_verified": false,
+  "branch": "feature/3mf-v0.5.0"
+}
